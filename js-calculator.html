@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>JavaScript Calculator</title>
+    <link rel="stylesheet" href="calculator.css"> <!-- custom css -->
+</head>
+<body>
+<div id="everythingDiv">
+    <div id="top-div">
+        <h1>Contact Light</h1>
+        <div id="inputFields">
+            <input id="leftOp" type="text" readonly><br>
+            <input id="operator" type="text" readonly><br>
+            <input id="rightOp" type="text" readonly>
+        </div><!-- end of input fields -->
+    </div><!-- end of top div -->
+    <div id="main-container">
+        <div id="buttonsDiv">
+            <button id="btn1" class="button" value="1">1</button>
+            <button id="btn2" class="button" value="2">2</button>
+            <button id="btn3" class="button" value="3">3</button>
+            <button id="btnA" class="button operator" value="+">+</button>
+            <button id="btn4" class="button" value="4">4</button>
+            <button id="btn5" class="button" value="5">5</button>
+            <button id="btn6" class="button" value="6">6</button>
+            <button id="btnS" class="button operator" value="-">-</button>
+            <button id="btn7" class="button" value="7">7</button>
+            <button id="btn8" class="button" value="8">8</button>
+            <button id="btn9" class="button" value="9">9</button>
+            <button id="btnM" class="button operator" value="*">*</button>
+            <button id="btnC" class="button">C</button>
+            <button id="btn0" class="button" value="0">0</button>
+            <button id="decimal" class="button" value=".">.</button>
+            <button id="btnD" class="button operator" value="/">/</button>
+            <button id="btnE" class="button evaluate">=</button>
+        </div><!-- end of buttons div -->
+        <div id="extrasDiv">
+            <button id="sRoot" class="button operator" value="√">√</button>
+            <button id="posNeg" class="button operator" value="+/-">+/-</button>
+        </div> <!-- end of extras div -->
+    </div><!-- end of main container -->
+</div><!-- end of everything div -->
+<script src="calculator.js"></script><!-- custom js -->
+</body>
+</html>

@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css?family=Orbitron|Ropa+Sans');
+
+body{
+    background-image: url('img/Night-sky.jpg');
+    background-position: 0 0;
+    background-repeat: repeat-x;
+}
+
+#everythingDiv {
+    margin: 0 auto;
+    max-width:  300px;
+}
+
+#top-div {
+    margin: 0 auto;
+    max-width: 250px;
+}
+
+#inputFields {
+    max-width: 250px;
+    margin: 0 auto;
+}
+
+#main-container{
+    height: 250px;
+    width: 250px;
+    background-image: url("img/moon-texture.jpg");
+    padding: 10px 30px 30px 30px;
+    margin: 0 auto;
+    border-radius: 50%;
+    box-shadow: 10px 30px 10px rgba(0, 0, 0, 0.5);
+}
+
+
+#buttonsDiv{
+    margin: 30px 20px 40px 45px;
+    width: 330px;
+}
+
+input{
+    height: 50px;
+    width: 200px;
+    margin: 5px auto;
+    background-color: transparent;
+    color: lime;
+    border: 1px solid rgba(0, 255, 0, .2);
+    font-family: 'Ropa Sans', sans-serif;
+    font-size: 40px;
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: bolder;
+    color: #EEE;
+    letter-spacing: 5px;
+    text-shadow: 10px 8px rgba(62, 255, 0, 0.17);
+}
+
+.button{
+    display: block;
+    width: 35px;
+    height: 35px;
+    padding: 5px 5px 8px 5px;
+    text-align: center;
+    border-radius: 50%;
+    float: left;
+    background-color: #4f3073;
+    margin: 2px;
+    font-family: 'Ropa Sans', sans-serif;
+    font-size: 14px;
+    font-weight: bolder;
+    color: antiquewhite;
+    box-shadow: 5px 10px 5px rgba(0, 0, 0, 0.6);
+    border: solid #60486f 2px;
+}
+
+.button:active{
+    box-shadow: 2px 7px 2px rgba(0, 0, 0, 0.6);
+    transform: translateY(2px);
+}
+
+.operator{
+    background-color: #a44519;
+    color: white;
+    border: solid #ad664b 2px;
+
+}
+
+#operator{
+    width: 50px;
+    margin-left: 125px;
+}
+
+#btn4{
+    clear: left;
+}
+
+#btn7{
+    clear: left;
+}
+
+#btnC{
+    clear: left;
+}
+
+#btnM{
+    padding: 5px 5px 0 5px;
+    font-size: 20px;
+}
+
+#btnA, #btnS, #btnD{
+    font-size: 20px;
+}
+
+#btnE{
+    width: 50px;
+    height: 50px;
+    background-color: lime;
+    color: black;
+    font-size: 45px;
+    padding: 0 0 45px 0;
+    box-shadow: 5px 10px 5px rgba(0, 0, 0, 0.6);
+    border-radius: 50%;
+    clear: left;
+    border: solid #a0ff8d 2px;
+    margin: 5px 0 0 53px;
+
+}
+
+#inputFields{
+    margin: 10px;
+    background-color: transparent;
+}
+
+#sRoot{
+    margin: 10px 10px 10px 15px;
+}
+
+#posNeg{
+    margin: -45px 50px 50px 48px;
+    background-color: #4f3073;
+    border-color: #60486f;
+}
+
+/* landscape phones */
+@media (max-width: 576px){
+
+    #top-div {
+        width: 100vw;
+    }
+
+    h1 {
+        width: 90vw;
+        text-align: center;
+    }
+
+}
