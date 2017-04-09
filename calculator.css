@@ -8,16 +8,16 @@ body{
 
 #everythingDiv {
     margin: 0 auto;
-    max-width:  300px;
+    max-width:  400px;
 }
 
 #top-div {
     margin: 0 auto;
-    max-width: 250px;
+    max-width: 400px;
 }
 
 #inputFields {
-    max-width: 250px;
+    max-width: 400px;
     margin: 0 auto;
 }
 
@@ -38,9 +38,10 @@ body{
 }
 
 input{
+    display: block;
     height: 50px;
     width: 200px;
-    margin: 5px auto;
+    margin: 0 auto;
     background-color: transparent;
     color: lime;
     border: 1px solid rgba(0, 255, 0, .2);
@@ -90,7 +91,6 @@ h1{
 
 #operator{
     width: 50px;
-    margin-left: 125px;
 }
 
 #btn4{
@@ -144,16 +144,16 @@ h1{
     border-color: #60486f;
 }
 
-/* landscape phones */
-@media (max-width: 576px){
+/*!* landscape phones *!*/
+/*@media (max-width: 576px){*/
 
-    #top-div {
-        width: 100vw;
-    }
+    /*#top-div {*/
+        /*width: 100vw;*/
+    /*}*/
 
-    h1 {
-        width: 90vw;
-        text-align: center;
-    }
+    /*h1 {*/
+        /*width: 90vw;*/
+        /*text-align: center;*/
+    /*}*/
 
-}
+/*}*/
